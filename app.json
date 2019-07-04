@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chat/chat",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#22639D",
+    "navigationBarTitleText": "Hello World",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "/imges/cookie.png",
+      "selectedIconPath": "/imges/cook.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人中心",
+      "iconPath": "/imges/gree.png",
+      "selectedIconPath": "/imges/gre.png"
+    },
+    {
+      "pagePath": "pages/chat/chat",
+      "text": "聊天",
+      "iconPath": "/imges/swe.png",
+      "selectedIconPath": "/imges/sw.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
